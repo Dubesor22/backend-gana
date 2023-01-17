@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 
 <p align="center">
-  <img width="640" height="480" src="https://tarifasgasluz.com/sites/tarifasgasluz.com/files/images/logo-ganaenergia_0.png">
+  <img width="600" height="480" src="https://tarifasgasluz.com/sites/tarifasgasluz.com/files/images/logo-ganaenergia_0.png">
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -21,7 +21,7 @@
         <li><a href="#installation">Instalación</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Uso</a></li>
+    <li><a href="#testing">Testing</a></li>
     <li><a href="#roadmap">Mapa de contenidos</a></li>
     <li><a href="#license">Licencia</a></li>
     <li><a href="#contact">Contacto</a></li>
@@ -77,7 +77,27 @@ postal
    ```sh
    npm install
    ```
+3. hacer correr el servidor
+   ```sh
+   asegurate de estar en la carpeta del proyecto.
+   npm run dev
+   ```
 
 el Proyecto esta Actualmente con la base de datos en mi Mongo atlas y corriendo el servidor en local en el puerto 8080.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+## Testing
+
+He usado Postman para probar cada uno de los Endpoints con un resultado positivo para cada uno de ellos.
+
+Full API endpoints documentation:
+
+[https://documenter.getpostman.com/view/21013501/2s8ZDVZNoK](https://documenter.getpostman.com/view/21013501/2s8ZDVZNoK)
+
+<p align="center">
+  <img width="480" height="320" src="https://www.sngular.com/wp-content/uploads/2021/12/postman-logo-vert-2018.jpg">
+</p>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+## Postman
