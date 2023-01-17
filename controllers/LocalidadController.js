@@ -14,7 +14,7 @@ const LocalidadController = {
     }
   },
 
-  async getByCp(req, res) {
+  async getLocalidad(req, res) {
     try {
       const { cp } = req.params;
 
