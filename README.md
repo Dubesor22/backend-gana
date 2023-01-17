@@ -71,7 +71,7 @@ postal
 
 1. Clonar el repositorio
    ```sh
-   git clone https://github.com/Dubesor22/.....
+   git clone https://github.com/Dubesor22/backend-gana
    ```
 2. Instalar paquetes NPM
    ```sh
