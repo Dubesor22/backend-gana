@@ -65,9 +65,10 @@ const ContratoController = {
   },
 
   async modifycontract(req, res) {
+    console.log(req.params);
     try {
       const contrato = await Contrato.findByIdAndUpdate(
-        req.params._id,
+        req.params.id,
         req.body,
         { new: true }
       );
