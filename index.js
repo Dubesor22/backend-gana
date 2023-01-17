@@ -1,14 +1,16 @@
 const express = require("express");
-
 const app = express();
 
-const PORT = 8080;
+require("dotenv").config();
+
+const PORT = process.env.PORT || 3001;
 
 const { dbConnection } = require("./config/config");
 
 app.use(express.json());
 
-app.use("/contratos", require("./routes/Contratos"));
+app.use("/contratos", require("./routes/contratos"));
+app.use("/localidades", require("./routes/localidades"));
 
 dbConnection();
 

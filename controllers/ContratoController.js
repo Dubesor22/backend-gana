@@ -24,6 +24,7 @@ const ContratoController = {
         .send({ message: "Ha habido un problema al obtener los productos" });
     }
   },
+
   async getById(req, res) {
     try {
       const contrato = await Contrato.findById(req.params.id);
@@ -35,6 +36,7 @@ const ContratoController = {
       });
     }
   },
+
   async getByCp(req, res) {
     try {
       const contrato = await Contrato.find({
@@ -49,6 +51,7 @@ const ContratoController = {
       });
     }
   },
+
   async deletecontract(req, res) {
     try {
       const contrato = await Contrato.findByIdAndDelete(req.params.id);
@@ -60,6 +63,7 @@ const ContratoController = {
       });
     }
   },
+
   async modifycontract(req, res) {
     try {
       const contrato = await Contrato.findByIdAndUpdate(

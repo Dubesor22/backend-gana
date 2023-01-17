@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const ContratoSchema = new mongoose.Schema(
   {
-    name: String,
+    nombre: String,
     apellido1: String,
     apellido2: String,
     documento: String,
