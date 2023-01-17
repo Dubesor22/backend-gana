@@ -11,21 +11,20 @@
   <summary>Tabla de contenidos</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Sobre el proyecto</a>
+      <a href="#sobre-el-proyecto">Sobre el proyecto</a>
       <ul>
-        <li><a href="#built-with">Hecho con</a></li>
+        <li><a href="#hecho-con">Hecho con</a></li>
       </ul>
     </li>
     <li>
       <ul>
-        <li><a href="#installation">Instalación</a></li>
+        <li><a href="#installacion">Instalación</a></li>
       </ul>
     </li>
     <li><a href="#testing">Testing</a></li>
-    <li><a href="#roadmap">Mapa de contenidos</a></li>
-    <li><a href="#license">Licencia</a></li>
-    <li><a href="#contact">Contacto</a></li>
-    <li><a href="#acknowledgments">Conocimientos adquiridos</a></li>
+    <li><a href="#licencia">Licencia</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+    <li><a href="#agradecimientos">Agradecimientos</a></li>
   </ol>
 </details>
 
@@ -53,6 +52,8 @@ postal
 /modifycontract : modifica el contrato.
 /deletecontract : marca el contrato para que posteriormente se borre.
 /listcontracts : listado de contratos.
+
+Este proyecto tiene su cliente en otro repositorio a continuación dejo su link: [Frontend](https://github.com/Dubesor22/frontend--gana)
 
 ### Desarrollado con
 
@@ -91,7 +92,7 @@ el Proyecto esta Actualmente con la base de datos en mi Mongo atlas y corriendo 
 
 He usado Postman para probar cada uno de los Endpoints con un resultado positivo para cada uno de ellos.
 
-Full API endpoints documentation:
+Documentación de la API, endpoints:
 
 [https://documenter.getpostman.com/view/21013501/2s8ZDVZNoK](https://documenter.getpostman.com/view/21013501/2s8ZDVZNoK)
 
@@ -100,4 +101,29 @@ Full API endpoints documentation:
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-## Postman
+
+<!-- LICENSE -->
+
+## Licencia
+
+Este programa es Open Source y cualquiera puede usarlo, se agradece mención a su creador.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contacto
+
+David Ubeda - [gitHub](https://github.com/dubesor22)
+
+Contacto personal - [linkedIn](https://www.linkedin.com/in/dubesor22/)
+
+Link del proyecto: [Repo](https://github.com/dubesor22/backend-gana)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Agradecimientos
+
+Quiero dar las gracias a gana energía por darme la oportunidad de participar en su proceso de selección, me hizo mucha ilusión que contactaran conmigo para este puesto de trabajo, ya que es el stack que más me gusta y suelo trabajar.
+
+- [Gana Energía](https://www.ganaenergia.com/)
