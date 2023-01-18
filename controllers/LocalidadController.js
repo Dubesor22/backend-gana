@@ -4,7 +4,7 @@ const LocalidadController = {
   async getAll(req, res) {
     try {
       const localidad = await Localidad.find().limit(20);
-      console.log(localidad);
+
       res.status(200).send(localidad);
     } catch (error) {
       console.error(error);
@@ -17,8 +17,6 @@ const LocalidadController = {
   async getLocalidad(req, res) {
     try {
       const { cp } = req.params;
-
-      console.log(req.params);
       const localidad = await Localidad.find({ codigo_postal: cp });
       res.status(200).send(localidad);
     } catch (error) {

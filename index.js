@@ -3,24 +3,6 @@ const app = express();
 
 const cors = require("cors");
 
-// const allowedOrigins = [
-//   "http://localhost:3000",
-//   "http://localhost:3001",
-//   "http://localhost:8080",
-// ];
-// const corsOptions = {
-//   origin: (origin, callback) => {
-//     if (allowedOrigins.indexOf(origin) !== -1) {
-//       callback(null, true);
-//     } else {
-//       callback(new Error("Not allowed by CORS"));
-//     }
-//   },
-//   optionsSuccessStatus: 200,
-//   exposedHeaders: ["Content-Range", "X-Content-Range"],
-//   credentials: true,
-//   maxAge: 3600,
-// };
 app.use(cors());
 
 require("dotenv").config();
