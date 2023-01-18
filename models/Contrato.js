@@ -5,18 +5,22 @@ const ContratoSchema = new mongoose.Schema(
     nombre: {
       type: String,
       required: true,
+      validate: /[a-z]/,
     },
     apellido1: {
       type: String,
       required: true,
+      validate: /[a-z]/,
     },
     apellido2: {
       type: String,
       required: true,
+      validate: /[a-z]/,
     },
     documento: {
       type: String,
       required: true,
+      match: /^\d{8}[a-zA-Z]$/,
     },
     cp: {
       type: Number,

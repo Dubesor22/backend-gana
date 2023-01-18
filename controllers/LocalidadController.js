@@ -20,7 +20,6 @@ const LocalidadController = {
 
       console.log(req.params);
       const localidad = await Localidad.find({ codigo_postal: cp });
-      console.log(localidad);
       res.status(200).send(localidad);
     } catch (error) {
       console.error(error);
